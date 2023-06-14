@@ -1,6 +1,6 @@
-FROM debian
+FROM debian:11.7
 
-MAINTAINER Ilya Kogan <ikogan@flarecode.com>
+MAINTAINER Fazle Khan <fazleskhan@gmail.com>
 
 RUN apt-get install --yes gnupg \
     && wget -O "/etc/apt/trusted.gpg.d/openmediavault-archive-keyring.asc" https://packages.openmediavault.org/public/archive.key \
