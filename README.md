@@ -3,6 +3,7 @@
 # OpenMediaVault Docker Container
 
 Docker image available on DockerHub at https://hub.docker.com/repository/docker/fazleskhan/openmediavault/general
+Source is available on GitHub at https://github.com/fazleskhan/docker-openmediavault
 
 Basic Docker container for OpenMediaVault primarily useful
 in plugin development.
