@@ -37,6 +37,4 @@ EXPOSE 80 443 445 21
 
 VOLUME /data
 
-VOLUME /etc/openmediavault
-
 ENTRYPOINT /usr/sbin/omv-startup
